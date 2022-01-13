@@ -10,6 +10,7 @@
 		5E41BC52278CE4750072A764 /* dubDubGrubApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E41BC51278CE4750072A764 /* dubDubGrubApp.swift */; };
 		5E41BC56278CE4760072A764 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5E41BC55278CE4760072A764 /* Assets.xcassets */; };
 		5E41BC59278CE4760072A764 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5E41BC58278CE4760072A764 /* Preview Assets.xcassets */; };
+		5E96F03D2790E2F60099C0E7 /* LocationDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E96F03C2790E2F60099C0E7 /* LocationDetailView.swift */; };
 		5E9D2382278CFA8600036397 /* CloudKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E9D2381278CFA8600036397 /* CloudKit.framework */; };
 		5E9D2384278CFD0100036397 /* Color+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E9D2383278CFD0100036397 /* Color+Ext.swift */; };
 		5E9D2388278CFDA300036397 /* AppTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E9D2387278CFDA300036397 /* AppTabView.swift */; };
@@ -23,6 +24,7 @@
 		5E41BC51278CE4750072A764 /* dubDubGrubApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dubDubGrubApp.swift; sourceTree = "<group>"; };
 		5E41BC55278CE4760072A764 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5E41BC58278CE4760072A764 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		5E96F03C2790E2F60099C0E7 /* LocationDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationDetailView.swift; sourceTree = "<group>"; };
 		5E9D237F278CFA5600036397 /* dubDubGrub.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = dubDubGrub.entitlements; sourceTree = "<group>"; };
 		5E9D2381278CFA8600036397 /* CloudKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CloudKit.framework; path = System/Library/Frameworks/CloudKit.framework; sourceTree = SDKROOT; };
 		5E9D2383278CFD0100036397 /* Color+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Ext.swift"; sourceTree = "<group>"; };
@@ -73,6 +75,7 @@
 				5E9D2389278CFDEA00036397 /* LocationMapView.swift */,
 				5E9D238B278CFE0600036397 /* LocationListView.swift */,
 				5E9D238F278CFE2A00036397 /* ProfileView.swift */,
+				5E96F03C2790E2F60099C0E7 /* LocationDetailView.swift */,
 			);
 			path = dubDubGrub;
 			sourceTree = "<group>";
@@ -166,6 +169,7 @@
 				5E41BC52278CE4750072A764 /* dubDubGrubApp.swift in Sources */,
 				5E9D238A278CFDEA00036397 /* LocationMapView.swift in Sources */,
 				5E9D238C278CFE0600036397 /* LocationListView.swift in Sources */,
+				5E96F03D2790E2F60099C0E7 /* LocationDetailView.swift in Sources */,
 				5E9D2388278CFDA300036397 /* AppTabView.swift in Sources */,
 				5E9D2390278CFE2A00036397 /* ProfileView.swift in Sources */,
 				5E9D2384278CFD0100036397 /* Color+Ext.swift in Sources */,
