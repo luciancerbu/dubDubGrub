@@ -18,7 +18,10 @@ struct AppTabView: View {
                 .tabItem {
                     Label("Location", systemImage: "building")
                 }
-            ProfileView()
+            
+            NavigationView {
+                ProfileView()
+            }
                 .tabItem {
                     Label("Profile", systemImage: "person")
                 }
