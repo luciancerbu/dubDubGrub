@@ -15,6 +15,9 @@
 		5E2DF8C9279606F900B49FE1 /* DDGLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E2DF8C8279606F900B49FE1 /* DDGLocation.swift */; };
 		5E2DF8CB279612AA00B49FE1 /* DDGProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E2DF8CA279612AA00B49FE1 /* DDGProfile.swift */; };
 		5E2DF8CD2796144100B49FE1 /* MockData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E2DF8CC2796144100B49FE1 /* MockData.swift */; };
+		5E2DF8D0279619ED00B49FE1 /* CloudKitManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E2DF8CF279619ED00B49FE1 /* CloudKitManager.swift */; };
+		5E2DF8D227961BA300B49FE1 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E2DF8D127961BA300B49FE1 /* Constants.swift */; };
+		5E2DF8D427961FED00B49FE1 /* CKRecord+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E2DF8D327961FED00B49FE1 /* CKRecord+Ext.swift */; };
 		5E41BC52278CE4750072A764 /* dubDubGrubApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E41BC51278CE4750072A764 /* dubDubGrubApp.swift */; };
 		5E41BC56278CE4760072A764 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5E41BC55278CE4760072A764 /* Assets.xcassets */; };
 		5E41BC59278CE4760072A764 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5E41BC58278CE4760072A764 /* Preview Assets.xcassets */; };
@@ -36,6 +39,9 @@
 		5E2DF8C8279606F900B49FE1 /* DDGLocation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DDGLocation.swift; sourceTree = "<group>"; };
 		5E2DF8CA279612AA00B49FE1 /* DDGProfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DDGProfile.swift; sourceTree = "<group>"; };
 		5E2DF8CC2796144100B49FE1 /* MockData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockData.swift; sourceTree = "<group>"; };
+		5E2DF8CF279619ED00B49FE1 /* CloudKitManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CloudKitManager.swift; sourceTree = "<group>"; };
+		5E2DF8D127961BA300B49FE1 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		5E2DF8D327961FED00B49FE1 /* CKRecord+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CKRecord+Ext.swift"; sourceTree = "<group>"; };
 		5E41BC4E278CE4750072A764 /* dubDubGrub.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = dubDubGrub.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E41BC51278CE4750072A764 /* dubDubGrubApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dubDubGrubApp.swift; sourceTree = "<group>"; };
 		5E41BC55278CE4760072A764 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -67,6 +73,7 @@
 			children = (
 				5E9D2383278CFD0100036397 /* Color+Ext.swift */,
 				5E2DF8BE2793840A00B49FE1 /* View+Ext.swift */,
+				5E2DF8D327961FED00B49FE1 /* CKRecord+Ext.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -121,6 +128,16 @@
 			path = Model;
 			sourceTree = "<group>";
 		};
+		5E2DF8CE2796192E00B49FE1 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				5E2DF8C227946DEE00B49FE1 /* Extensions */,
+				5E2DF8CF279619ED00B49FE1 /* CloudKitManager.swift */,
+				5E2DF8D127961BA300B49FE1 /* Constants.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
 		5E41BC45278CE4750072A764 = {
 			isa = PBXGroup;
 			children = (
@@ -141,8 +158,8 @@
 		5E41BC50278CE4750072A764 /* dubDubGrub */ = {
 			isa = PBXGroup;
 			children = (
+				5E2DF8CE2796192E00B49FE1 /* Utilities */,
 				5E2DF8C7279606E800B49FE1 /* Model */,
-				5E2DF8C227946DEE00B49FE1 /* Extensions */,
 				5E2DF8C327946E0700B49FE1 /* Views */,
 				5E9D237F278CFA5600036397 /* dubDubGrub.entitlements */,
 				5E41BC51278CE4750072A764 /* dubDubGrubApp.swift */,
@@ -239,6 +256,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5E41BC52278CE4750072A764 /* dubDubGrubApp.swift in Sources */,
+				5E2DF8D227961BA300B49FE1 /* Constants.swift in Sources */,
 				5E2DF8BD279383BF00B49FE1 /* CustomModifiers.swift in Sources */,
 				5E9D238A278CFDEA00036397 /* LocationMapView.swift in Sources */,
 				5E9D238C278CFE0600036397 /* LocationListView.swift in Sources */,
@@ -248,8 +266,10 @@
 				5E2DF8C9279606F900B49FE1 /* DDGLocation.swift in Sources */,
 				5E9D2388278CFDA300036397 /* AppTabView.swift in Sources */,
 				5E9D2390278CFE2A00036397 /* ProfileView.swift in Sources */,
+				5E2DF8D0279619ED00B49FE1 /* CloudKitManager.swift in Sources */,
 				5E2DF8BF2793840A00B49FE1 /* View+Ext.swift in Sources */,
 				5E2DF8B92793811400B49FE1 /* LocationCell.swift in Sources */,
+				5E2DF8D427961FED00B49FE1 /* CKRecord+Ext.swift in Sources */,
 				5E2DF8C127946C8A00B49FE1 /* DDGButton.swift in Sources */,
 				5E2DF8BB2793815700B49FE1 /* AvatarView.swift in Sources */,
 				5E9D2384278CFD0100036397 /* Color+Ext.swift in Sources */,

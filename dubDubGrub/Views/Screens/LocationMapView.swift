@@ -21,6 +21,16 @@ struct LocationMapView: View {
                 Spacer()
             }
         }
+        .onAppear {
+            CloudKitManager.getLocation { result in
+                switch result {
+                case .success(let locations):
+                    print(locations)
+                case .failure(let error):
+                    print(error.localizedDescription)
+                }
+            }
+        }
     }
 }
 
