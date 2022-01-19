@@ -29,6 +29,7 @@
 		5E9D238C278CFE0600036397 /* LocationListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E9D238B278CFE0600036397 /* LocationListView.swift */; };
 		5E9D2390278CFE2A00036397 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E9D238F278CFE2A00036397 /* ProfileView.swift */; };
 		5EA926AC2798B6D800B7B14F /* AlertItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EA926AB2798B6D800B7B14F /* AlertItem.swift */; };
+		5EA926AF2798C78900B7B14F /* LocationMapViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EA926AE2798C78900B7B14F /* LocationMapViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -56,6 +57,7 @@
 		5E9D238B278CFE0600036397 /* LocationListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationListView.swift; sourceTree = "<group>"; };
 		5E9D238F278CFE2A00036397 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
 		5EA926AB2798B6D800B7B14F /* AlertItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertItem.swift; sourceTree = "<group>"; };
+		5EA926AE2798C78900B7B14F /* LocationMapViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationMapViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,9 +96,9 @@
 		5E2DF8C427946E1200B49FE1 /* Screens */ = {
 			isa = PBXGroup;
 			children = (
+				5EA926AD2798C77300B7B14F /* LocationMapView */,
 				5E9D2387278CFDA300036397 /* AppTabView.swift */,
 				5E96F03C2790E2F60099C0E7 /* LocationDetailView.swift */,
-				5E9D2389278CFDEA00036397 /* LocationMapView.swift */,
 				5E9D238B278CFE0600036397 /* LocationListView.swift */,
 				5E9D238F278CFE2A00036397 /* ProfileView.swift */,
 			);
@@ -188,6 +190,15 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		5EA926AD2798C77300B7B14F /* LocationMapView */ = {
+			isa = PBXGroup;
+			children = (
+				5EA926AE2798C78900B7B14F /* LocationMapViewModel.swift */,
+				5E9D2389278CFDEA00036397 /* LocationMapView.swift */,
+			);
+			path = LocationMapView;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -262,6 +273,7 @@
 				5E2DF8D227961BA300B49FE1 /* Constants.swift in Sources */,
 				5E2DF8BD279383BF00B49FE1 /* CustomModifiers.swift in Sources */,
 				5E9D238A278CFDEA00036397 /* LocationMapView.swift in Sources */,
+				5EA926AF2798C78900B7B14F /* LocationMapViewModel.swift in Sources */,
 				5E9D238C278CFE0600036397 /* LocationListView.swift in Sources */,
 				5E2DF8CD2796144100B49FE1 /* MockData.swift in Sources */,
 				5E96F03D2790E2F60099C0E7 /* LocationDetailView.swift in Sources */,
