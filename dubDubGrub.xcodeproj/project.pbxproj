@@ -28,6 +28,7 @@
 		5E9D238A278CFDEA00036397 /* LocationMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E9D2389278CFDEA00036397 /* LocationMapView.swift */; };
 		5E9D238C278CFE0600036397 /* LocationListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E9D238B278CFE0600036397 /* LocationListView.swift */; };
 		5E9D2390278CFE2A00036397 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E9D238F278CFE2A00036397 /* ProfileView.swift */; };
+		5EA926AC2798B6D800B7B14F /* AlertItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EA926AB2798B6D800B7B14F /* AlertItem.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -54,6 +55,7 @@
 		5E9D2389278CFDEA00036397 /* LocationMapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationMapView.swift; sourceTree = "<group>"; };
 		5E9D238B278CFE0600036397 /* LocationListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationListView.swift; sourceTree = "<group>"; };
 		5E9D238F278CFE2A00036397 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		5EA926AB2798B6D800B7B14F /* AlertItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertItem.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -134,6 +136,7 @@
 				5E2DF8C227946DEE00B49FE1 /* Extensions */,
 				5E2DF8CF279619ED00B49FE1 /* CloudKitManager.swift */,
 				5E2DF8D127961BA300B49FE1 /* Constants.swift */,
+				5EA926AB2798B6D800B7B14F /* AlertItem.swift */,
 			);
 			path = Utilities;
 			sourceTree = "<group>";
@@ -267,6 +270,7 @@
 				5E9D2388278CFDA300036397 /* AppTabView.swift in Sources */,
 				5E9D2390278CFE2A00036397 /* ProfileView.swift in Sources */,
 				5E2DF8D0279619ED00B49FE1 /* CloudKitManager.swift in Sources */,
+				5EA926AC2798B6D800B7B14F /* AlertItem.swift in Sources */,
 				5E2DF8BF2793840A00B49FE1 /* View+Ext.swift in Sources */,
 				5E2DF8B92793811400B49FE1 /* LocationCell.swift in Sources */,
 				5E2DF8D427961FED00B49FE1 /* CKRecord+Ext.swift in Sources */,
