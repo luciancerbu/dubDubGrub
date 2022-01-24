@@ -31,6 +31,7 @@
 		5EA926AC2798B6D800B7B14F /* AlertItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EA926AB2798B6D800B7B14F /* AlertItem.swift */; };
 		5EA926AF2798C78900B7B14F /* LocationMapViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EA926AE2798C78900B7B14F /* LocationMapViewModel.swift */; };
 		5EE9D8BC279ED39100CE5F9C /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EE9D8BB279ED39100CE5F9C /* LocationManager.swift */; };
+		5EE9D8BE279EE9F200CE5F9C /* CKAsset+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EE9D8BD279EE9F200CE5F9C /* CKAsset+Ext.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -60,6 +61,7 @@
 		5EA926AB2798B6D800B7B14F /* AlertItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertItem.swift; sourceTree = "<group>"; };
 		5EA926AE2798C78900B7B14F /* LocationMapViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationMapViewModel.swift; sourceTree = "<group>"; };
 		5EE9D8BB279ED39100CE5F9C /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
+		5EE9D8BD279EE9F200CE5F9C /* CKAsset+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CKAsset+Ext.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +82,7 @@
 				5E9D2383278CFD0100036397 /* Color+Ext.swift */,
 				5E2DF8BE2793840A00B49FE1 /* View+Ext.swift */,
 				5E2DF8D327961FED00B49FE1 /* CKRecord+Ext.swift */,
+				5EE9D8BD279EE9F200CE5F9C /* CKAsset+Ext.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -298,6 +301,7 @@
 				5E2DF8B92793811400B49FE1 /* LocationCell.swift in Sources */,
 				5E2DF8D427961FED00B49FE1 /* CKRecord+Ext.swift in Sources */,
 				5EE9D8BC279ED39100CE5F9C /* LocationManager.swift in Sources */,
+				5EE9D8BE279EE9F200CE5F9C /* CKAsset+Ext.swift in Sources */,
 				5E2DF8C127946C8A00B49FE1 /* DDGButton.swift in Sources */,
 				5E2DF8BB2793815700B49FE1 /* AvatarView.swift in Sources */,
 				5E9D2384278CFD0100036397 /* Color+Ext.swift in Sources */,
